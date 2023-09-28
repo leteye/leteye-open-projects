@@ -12,7 +12,7 @@ U-Net (plain-vanilla) module developed for specific PV failures segmentation tas
 **Results returned**
 - Segmentation mask images (human-readable images, see example below). By defaults they stored in newly created ‘view’ folder located in the same directory with main script. For convenience all resulting segmentation masks named as name of the original image with adding prefix ‘_m’ at start of original filename.
 
-![results.png](https://github.com/merr-src/u-net_solar/results.png)
+![results.png](/results.png)
   
 - Data file data.json with total data collected (see example below), which saved in the same folder with main script. Example of json generated for images above:
 
