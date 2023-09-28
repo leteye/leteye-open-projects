@@ -51,7 +51,7 @@ U-Net (plain-vanilla) module developed for specific PV failures segmentation tas
 
 All code were developed and tested with python 3.8.5 in Ubuntu 20.04 LTS.
 Main python dependences are: cv2, torch, torchvision, numpy, natsort, random, os, json, configparser
-All requirements could be installed with terminal: pip install -r requirements.txt
+All requirements could be installed with terminal: `pip install -r requirements.txt`
 
 
 **Contributions**
