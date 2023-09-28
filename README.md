@@ -16,7 +16,7 @@ U-Net (plain-vanilla) module developed for specific PV failures segmentation tas
   
 - Data file data.json with total data collected (see example below), which saved in the same folder with main script. Example of json generated for images above:
 
-{
+~~~{
   "Record_2021-08-20_12-44-15.jpg": 
   [
     {
@@ -42,7 +42,7 @@ U-Net (plain-vanilla) module developed for specific PV failures segmentation tas
       "vegetation": {"0": [79,262]}
     }
   ]
-}
+}~~~
 
 
 
