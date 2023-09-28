@@ -1,0 +1,47 @@
+# ----------U-NET INFERENCE PYTHON CONFIG-----------
+# Windows INI files-like sructure, read with configparser:
+# https://docs.python.org/3/library/configparser.html
+# ----------------------------------------------------
+
+# SRUCTURE: param = default value	# description 
+
+# ----------------------------------------------------
+[paths]
+# name for folder with analyzed images
+img = img
+
+# filename of model state dict
+mod = model
+
+# name for folder where viewing masks stored
+view = view
+
+# name for out json data file
+out = data
+
+[UNet]
+# number of channels in analyzed images (3 for RGB or HSV, 1 for grayscale)
+in_channels = 3
+
+# number of classes of objects need to detect by NN (bckgr + 6 PV failure types here)
+n_class = 7
+# ----------------------------------------------------
+
+# The module designed in assumption that dir tree looks as following:
+
+# (common_dir)
+#      |
+#      |
+#      ---------(img)---[images to analyze]
+#      |
+#      ---------script.py
+#      |
+#      ---------model.pth
+#      |
+#      ---------cfg.txt: this file
+
+# After script execution 'view' folder with segmentation masks and data.json
+# file with statistics for image set analyzed will created in common dir 
+
+
+
