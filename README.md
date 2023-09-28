@@ -42,7 +42,8 @@ U-Net (plain-vanilla) module developed for specific PV failures segmentation tas
       "vegetation": {"0": [79,262]}
     }
   ]
-}~~~
+}
+~~~
 
 
 
