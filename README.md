@@ -10,7 +10,7 @@ U-Net (plain-vanilla) module developed for specific PV failures segmentation tas
 - Configuration file cfg.txt. Here you can change the names for img folder, weights file and names for results returned. This will be convenient when you decide to work with separated sets of images and/or other weights file to perform other segmentation task, so all inputs and outputs for each ''project'' could be located in common directory.
 
 **Results returned**
-- Segmentation mask images (human-readable images, see example below). By defaults they stored in newly created ‘view’ folder located in the same directory with main script. For convenience all resulting segmentation masks named as name of the original image with adding prefix ‘_m’ at start of original filename.
+- Segmentation mask images (human-readable images created by combining masks and B&W original versions, example below). By defaults they stored in newly created ‘view’ folder located in the same directory with main script. For convenience all resulting segmentation masks named as name of the original image with adding prefix ‘_m’ at start of original filename.
 
 ![results.png](/blob/results.png)
   
